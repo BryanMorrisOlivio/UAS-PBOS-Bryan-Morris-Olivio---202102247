@@ -1,0 +1,11 @@
+p = int(input("Panjang  :  "))
+l = int(input("Lebar    :  "))
+
+def soal1(p, l):
+    Keliling = ((2 * p) + (2 * l))
+    luas = (p * l)
+    print("\n")
+    print("Keliling : ", Keliling)
+    print("Luas     : ", luas)
+    
+soal1(p, l)
