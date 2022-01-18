@@ -1,0 +1,16 @@
+class jenis:
+    nama = None
+    alamat = None
+    nim = None
+
+m1 = jenis()
+m1.nama = str(input("Nama      : "))
+m1.alamat = str(input("Alamat    : "))
+m1.nim = str(input("NIM       : "))
+
+
+print("\n\n")
+print("DATA DIRI SEBAGAI BERIKUT : ")
+print("Nama     : ", m1.nama)
+print("Alamat   : ", m1.alamat)
+print("NIM      : ", m1.nim)
