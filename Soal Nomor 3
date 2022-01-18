@@ -1,0 +1,17 @@
+a = int(input("A = "))
+b = int(input("B = "))
+
+def tambah(a, b):
+    return a+b
+def kurang(a, b):
+    return a-b
+def kali(a, b):
+    return a*b
+def bagi(a, b):
+    return a/b
+
+print("\n  Hasil Perhitungan : ")
+print("- Tambah :%d" %tambah(a, b))
+print("- Kurang :%d" %kurang(a, b))
+print("- kali :%d" %kali(a, b))
+print("- bagi :%d" %bagi(a, b))
